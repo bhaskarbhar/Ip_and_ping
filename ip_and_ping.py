@@ -30,6 +30,7 @@ def get_ping():
     ping_output = subprocess.check_output(["ping", entry_ping])
     messagebox.showinfo("Ping data",ping_output)
 
+    
 button_ping= Button(window, text="Ping any ip or website", command = get_ping)
 button_ping.configure(font= 100)
 button_ping.place(x=230,y=380)
