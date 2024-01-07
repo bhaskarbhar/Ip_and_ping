@@ -4,7 +4,7 @@ In this project I have used tkinter module to design the GUI. It a very basic pr
 It contains two functionalities:
 
     (i) Ip address finder of your device
-    (ii) Ping any website or ip
+    (ii) Ping any website
     
 Module used is known as "subprocess"
 
